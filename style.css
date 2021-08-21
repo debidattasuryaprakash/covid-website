@@ -5,7 +5,7 @@
     --dark-blue:#0a3d62;
     --red: #FF0000;
     --new: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
-    ;
+    --green: linear-gradient(315deg, #f5f186 0%, #9dfbc8 74%);
 }
 
 body{
@@ -82,6 +82,20 @@ header .navbar a:hover{
     color:rgb(0, 0, 0);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
+
+#live{
+    color: red;
+    padding:.5rem 2rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+#live:hover{
+    background: var(--green);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
 
 header.sticky{
     background: #F0F8FF;
