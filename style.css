@@ -133,6 +133,8 @@ header.sticky{
     background:var(--dark-blue);
 }
 
+/* preventive measures */
+
 .prevent{
     background:url("./images/background-img.jpg") no-repeat;
     background-size: cover;
@@ -177,6 +179,8 @@ header.sticky{
     cursor:pointer;
 }
 
+/* symptoms */
+
 .symptoms{
     background:url("./images/background-img.jpg") no-repeat;
     background-size: cover;
@@ -216,12 +220,23 @@ header.sticky{
     color:var(--blue);
 }
 
+/* games section */
+
+.game{
+    background:url("./images/background-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* precautions */
+
 .precautions .column{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 
 .precautions .column .box-container{
     margin:1.5rem;
