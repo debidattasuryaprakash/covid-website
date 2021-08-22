@@ -244,6 +244,43 @@ header.sticky{
     text-align: center;
 }
 
+.game .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    margin:1rem;
+    padding:1rem;
+    text-align: center;
+}
+
+.game .box-container .box img{
+    height:25rem;
+    padding:1rem;
+}
+
+.game .box-container .box h3{
+    color:var(--blue);
+    font-size: 2rem;
+}
+
+.game .box-container .box p{
+    color:var(--dark-blue);
+    font-size: 1.4rem;
+    padding:1rem;
+}
+
+.game .box-container .box:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background-color: #ffcc99;
+    cursor:pointer;
+}
+
 /* precautions */
 
 .precautions .column{
